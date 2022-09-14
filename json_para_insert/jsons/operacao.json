@@ -1,0 +1,50 @@
+{
+  "versao": 2,
+  "operacao": [
+    {
+      "operacao_id": "1",
+      "codigo_interno": "1",
+      "nome": "Venda",
+      "entrada_saida": "S",
+      "movimenta_estoque": "1",
+      "movimenta_financeiro": "1",
+      "atualiza_precos": "1"
+    },
+    {
+      "operacao_id": "2",
+      "codigo_interno": "2",
+      "nome": "Devolução de venda",
+      "entrada_saida": "E",
+      "movimenta_estoque": "1",
+      "movimenta_financeiro": "1",
+      "atualiza_precos": "1"
+    },
+    {
+      "operacao_id": "3",
+      "codigo_interno": "3",
+      "nome": "Compra",
+      "entrada_saida": "E",
+      "movimenta_estoque": "1",
+      "movimenta_financeiro": "1",
+      "atualiza_precos": "1"
+    },
+    {
+      "operacao_id": "4",
+      "codigo_interno": "4",
+      "nome": "Devolução de compra",
+      "entrada_saida": "S",
+      "movimenta_estoque": "1",
+      "movimenta_financeiro": "1",
+      "atualiza_precos": "1"
+    },
+    {
+      "operacao_id": "5",
+      "codigo_interno": "5",
+      "nome": "Prestação de serviços",
+      "entrada_saida": "S",
+      "movimenta_estoque": "0",
+      "movimenta_financeiro": "1",
+      "atualiza_precos": "1"
+    }
+  ]
+}

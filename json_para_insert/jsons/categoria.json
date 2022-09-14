@@ -1,0 +1,1355 @@
+{
+  "versao": 4,
+  "categoria": [
+    {
+      "categoria_id": "1",
+      "codigo_interno": "1",
+      "codigo": "1",
+      "nome": "RECEITAS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "1"
+    },
+    {
+      "categoria_id": "2",
+      "codigo_interno": "2",
+      "codigo": "1.1",
+      "nome": "RECEITAS OPERACIONAIS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "2"
+    },
+    {
+      "categoria_id": "3",
+      "codigo_interno": "3",
+      "codigo": "1.1.01",
+      "nome": "RECEITAS COM VENDAS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "4",
+      "codigo_interno": "4",
+      "codigo": "1.1.01.001",
+      "nome": "Vendas de produtos a vista",
+      "categoria_grupo_id": "1",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "5",
+      "codigo_interno": "5",
+      "codigo": "1.1.01.002",
+      "nome": "Vendas de produtos a prazo",
+      "categoria_grupo_id": "2",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "6",
+      "codigo_interno": "6",
+      "codigo": "1.1.01.003",
+      "nome": "Vendas de serviços a vista",
+      "categoria_grupo_id": "3",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "7",
+      "codigo_interno": "7",
+      "codigo": "1.1.01.004",
+      "nome": "Vendas de serviços a prazo",
+      "categoria_grupo_id": "4",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "8",
+      "codigo_interno": "8",
+      "codigo": "1.1.01.005",
+      "nome": "Recebimentos de vendas de produtos",
+      "categoria_grupo_id": "5",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "9",
+      "codigo_interno": "9",
+      "codigo": "1.1.01.006",
+      "nome": "Recebimentos de vendas de serviços ",
+      "categoria_grupo_id": "6",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "10",
+      "codigo_interno": "10",
+      "codigo": "1.1.01.007",
+      "nome": "(-) Devoluções de vendas de produtos a vista",
+      "categoria_grupo_id": "7",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "11",
+      "codigo_interno": "11",
+      "codigo": "1.1.01.008",
+      "nome": "(-) Devoluções de vendas de produtos a prazo",
+      "categoria_grupo_id": "8",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "12",
+      "codigo_interno": "12",
+      "codigo": "1.1.01.009",
+      "nome": "(-) Devoluções de vendas de serviços a vista",
+      "categoria_grupo_id": "9",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "13",
+      "codigo_interno": "13",
+      "codigo": "1.1.01.010",
+      "nome": "(-) Devoluções de vendas de serviços a prazo",
+      "categoria_grupo_id": "10",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "14",
+      "codigo_interno": "14",
+      "codigo": "1.1.02",
+      "nome": "RECEITAS COM RECORRÊNCIAS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "15",
+      "codigo_interno": "15",
+      "codigo": "1.1.02.001",
+      "nome": "Recorrência de serviços",
+      "categoria_grupo_id": "11",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "16",
+      "codigo_interno": "16",
+      "codigo": "1.1.02.002",
+      "nome": "Recebimento de recorrência de serviços",
+      "categoria_grupo_id": "12",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "17",
+      "codigo_interno": "17",
+      "codigo": "1.2",
+      "nome": "RECEITAS NÃO OPERACIONAIS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "2"
+    },
+    {
+      "categoria_id": "18",
+      "codigo_interno": "18",
+      "codigo": "1.2.01",
+      "nome": "RECEITAS COM INTEGRALIZAÇÃO DE CAPITAL",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "19",
+      "codigo_interno": "19",
+      "codigo": "1.2.02",
+      "nome": "RECEITAS COM VENDAS DE IMOBILIZADOS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "20",
+      "codigo_interno": "20",
+      "codigo": "1.2.02.001",
+      "nome": "Venda de veículos",
+      "categoria_grupo_id": "14",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "21",
+      "codigo_interno": "21",
+      "codigo": "1.2.02.002",
+      "nome": "Venda de máquinas",
+      "categoria_grupo_id": "14",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "22",
+      "codigo_interno": "22",
+      "codigo": "1.2.02.003",
+      "nome": "Venda de equipamentos",
+      "categoria_grupo_id": "14",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "23",
+      "codigo_interno": "23",
+      "codigo": "1.2.02.004",
+      "nome": "Venda de móveis",
+      "categoria_grupo_id": "14",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "24",
+      "codigo_interno": "24",
+      "codigo": "1.2.02.005",
+      "nome": "Venda de imóveis",
+      "categoria_grupo_id": "14",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "25",
+      "codigo_interno": "25",
+      "codigo": "1.2.03",
+      "nome": "RECEITAS COM INVESTIMENTOS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "26",
+      "codigo_interno": "26",
+      "codigo": "1.2.04",
+      "nome": "RECEITAS COM REEMBOLSOS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "27",
+      "codigo_interno": "27",
+      "codigo": "1.2.05",
+      "nome": "OUTRAS RECEITAS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "28",
+      "codigo_interno": "28",
+      "codigo": "2",
+      "nome": "CUSTOS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "1"
+    },
+    {
+      "categoria_id": "29",
+      "codigo_interno": "29",
+      "codigo": "2.1.01",
+      "nome": "CUSTOS COM FORNECEDORES",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "30",
+      "codigo_interno": "30",
+      "codigo": "2.1.01.001",
+      "nome": "Compras de produtos a vista",
+      "categoria_grupo_id": "18",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "31",
+      "codigo_interno": "31",
+      "codigo": "2.1.01.002",
+      "nome": "Compras de produtos a prazo",
+      "categoria_grupo_id": "19",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "32",
+      "codigo_interno": "32",
+      "codigo": "2.1.01.003",
+      "nome": "Pagamentos de compras de produtos",
+      "categoria_grupo_id": "20",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "33",
+      "codigo_interno": "33",
+      "codigo": "2.1.01.004",
+      "nome": "(-) Devoluções de compras de produtos a vista",
+      "categoria_grupo_id": "21",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "34",
+      "codigo_interno": "34",
+      "codigo": "2.1.01.005",
+      "nome": "(-) Devoluções de compras de produtos a prazo",
+      "categoria_grupo_id": "22",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "35",
+      "codigo_interno": "35",
+      "codigo": "3",
+      "nome": "DESPESAS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "1"
+    },
+    {
+      "categoria_id": "36",
+      "codigo_interno": "36",
+      "codigo": "3.1.01",
+      "nome": "DESPESAS ADMINISTRATIVAS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "37",
+      "codigo_interno": "37",
+      "codigo": "3.1.01.001",
+      "nome": "Água e esgoto",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "38",
+      "codigo_interno": "38",
+      "codigo": "3.1.01.002",
+      "nome": "Aluguel de imóvel",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "39",
+      "codigo_interno": "39",
+      "codigo": "3.1.01.003",
+      "nome": "Assistência técnica",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "40",
+      "codigo_interno": "40",
+      "codigo": "3.1.01.004",
+      "nome": "Associações de classe",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "41",
+      "codigo_interno": "41",
+      "codigo": "3.1.01.005",
+      "nome": "Cartório",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "42",
+      "codigo_interno": "42",
+      "codigo": "3.1.01.006",
+      "nome": "Condomínio",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "43",
+      "codigo_interno": "43",
+      "codigo": "3.1.01.007",
+      "nome": "Confraternizações  ",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "44",
+      "codigo_interno": "44",
+      "codigo": "3.1.01.008",
+      "nome": "Consultoria administrativa",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "45",
+      "codigo_interno": "45",
+      "codigo": "3.1.01.009",
+      "nome": "Contabilidade ",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "46",
+      "codigo_interno": "46",
+      "codigo": "3.1.01.010",
+      "nome": "Correios",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "47",
+      "codigo_interno": "47",
+      "codigo": "3.1.01.011",
+      "nome": "Despesas com viagens",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "48",
+      "codigo_interno": "48",
+      "codigo": "3.1.01.012",
+      "nome": "Doações",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "49",
+      "codigo_interno": "49",
+      "codigo": "3.1.01.013",
+      "nome": "Documentação de veiculos",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "50",
+      "codigo_interno": "50",
+      "codigo": "3.1.01.014",
+      "nome": "Domínios da internet",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "51",
+      "codigo_interno": "51",
+      "codigo": "3.1.01.015",
+      "nome": "Energia elétrica",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "52",
+      "codigo_interno": "52",
+      "codigo": "3.1.01.016",
+      "nome": "Fretes e carretos",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "53",
+      "codigo_interno": "53",
+      "codigo": "3.1.01.017",
+      "nome": "Licença para uso de software",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "54",
+      "codigo_interno": "54",
+      "codigo": "3.1.01.018",
+      "nome": "Manutenção de veículos",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "55",
+      "codigo_interno": "55",
+      "codigo": "3.1.01.019",
+      "nome": "Manutenção predial",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "56",
+      "codigo_interno": "56",
+      "codigo": "3.1.01.020",
+      "nome": "Materiais para consumo",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "57",
+      "codigo_interno": "57",
+      "codigo": "3.1.01.021",
+      "nome": "Materiais de escritório",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "58",
+      "codigo_interno": "58",
+      "codigo": "3.1.01.022",
+      "nome": "Materiais de limpeza",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "59",
+      "codigo_interno": "59",
+      "codigo": "3.1.01.023",
+      "nome": "Multas de trânsito",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "60",
+      "codigo_interno": "60",
+      "codigo": "3.1.01.024",
+      "nome": "Provedor de internet",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "61",
+      "codigo_interno": "61",
+      "codigo": "3.1.01.025",
+      "nome": "Seguros de veiculos ",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "62",
+      "codigo_interno": "62",
+      "codigo": "3.1.01.026",
+      "nome": "Seguros diversos ",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "63",
+      "codigo_interno": "63",
+      "codigo": "3.1.01.027",
+      "nome": "Supermercado",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "64",
+      "codigo_interno": "64",
+      "codigo": "3.1.01.028",
+      "nome": "Telefonia",
+      "categoria_grupo_id": "23",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "65",
+      "codigo_interno": "65",
+      "codigo": "3.1.02",
+      "nome": "DESPESAS COMERCIAIS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "66",
+      "codigo_interno": "66",
+      "codigo": "3.1.02.001",
+      "nome": "Brindes ",
+      "categoria_grupo_id": "24",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "67",
+      "codigo_interno": "67",
+      "codigo": "3.1.02.002",
+      "nome": "Comissões",
+      "categoria_grupo_id": "24",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "68",
+      "codigo_interno": "68",
+      "codigo": "3.1.02.003",
+      "nome": "Feiras ",
+      "categoria_grupo_id": "24",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "69",
+      "codigo_interno": "69",
+      "codigo": "3.1.02.004",
+      "nome": "Premiações",
+      "categoria_grupo_id": "24",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "70",
+      "codigo_interno": "70",
+      "codigo": "3.1.03",
+      "nome": "DESPESAS FINANCEIRAS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "71",
+      "codigo_interno": "71",
+      "codigo": "3.1.03.001",
+      "nome": "Impostos financeiros ",
+      "categoria_grupo_id": "25",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "72",
+      "codigo_interno": "72",
+      "codigo": "3.1.03.002",
+      "nome": "Pagamento de juros",
+      "categoria_grupo_id": "25",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "73",
+      "codigo_interno": "73",
+      "codigo": "3.1.03.003",
+      "nome": "Tarifas bancárias",
+      "categoria_grupo_id": "25",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "74",
+      "codigo_interno": "74",
+      "codigo": "3.1.03.004",
+      "nome": "Tarifas de cobrança",
+      "categoria_grupo_id": "25",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "75",
+      "codigo_interno": "75",
+      "codigo": "3.1.04",
+      "nome": "DESPESAS TRIBUTÁRIAS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "76",
+      "codigo_interno": "76",
+      "codigo": "3.1.04.001",
+      "nome": "Impostos municipais",
+      "categoria_grupo_id": "26",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "77",
+      "codigo_interno": "77",
+      "codigo": "3.1.04.002",
+      "nome": "Impostos estaduais",
+      "categoria_grupo_id": "26",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "78",
+      "codigo_interno": "78",
+      "codigo": "3.1.04.003",
+      "nome": "Impostos federais",
+      "categoria_grupo_id": "26",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "79",
+      "codigo_interno": "79",
+      "codigo": "3.1.05",
+      "nome": "DESPESAS COM MARKETING",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "80",
+      "codigo_interno": "80",
+      "codigo": "3.1.05.001",
+      "nome": "Agência de marketing ",
+      "categoria_grupo_id": "27",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "81",
+      "codigo_interno": "81",
+      "codigo": "3.1.05.002",
+      "nome": "Carro de som",
+      "categoria_grupo_id": "27",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "82",
+      "codigo_interno": "82",
+      "codigo": "3.1.05.003",
+      "nome": "Impulsionamento ",
+      "categoria_grupo_id": "27",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "83",
+      "codigo_interno": "83",
+      "codigo": "3.1.05.004",
+      "nome": "Jornais",
+      "categoria_grupo_id": "27",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "84",
+      "codigo_interno": "84",
+      "codigo": "3.1.05.005",
+      "nome": "Materiais gráfico",
+      "categoria_grupo_id": "27",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "85",
+      "codigo_interno": "85",
+      "codigo": "3.1.05.006",
+      "nome": "Patrocínios",
+      "categoria_grupo_id": "27",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "86",
+      "codigo_interno": "86",
+      "codigo": "3.1.05.007",
+      "nome": "Rádio ",
+      "categoria_grupo_id": "27",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "87",
+      "codigo_interno": "87",
+      "codigo": "3.1.05.008",
+      "nome": "Serviços diversos de marketing ",
+      "categoria_grupo_id": "27",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "88",
+      "codigo_interno": "88",
+      "codigo": "3.1.06",
+      "nome": "DESPESAS COM COLABORADORES",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "89",
+      "codigo_interno": "89",
+      "codigo": "3.1.06.001",
+      "nome": "13º salário",
+      "categoria_grupo_id": "28",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "90",
+      "codigo_interno": "90",
+      "codigo": "3.1.06.002",
+      "nome": "Adiantamento de salário",
+      "categoria_grupo_id": "28",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "91",
+      "codigo_interno": "91",
+      "codigo": "3.1.06.003",
+      "nome": "Adiantamento do 13º salário",
+      "categoria_grupo_id": "28",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "92",
+      "codigo_interno": "92",
+      "codigo": "3.1.06.004",
+      "nome": "Adicional noturno, insalubridade e periculosidade",
+      "categoria_grupo_id": "28",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "93",
+      "codigo_interno": "93",
+      "codigo": "3.1.06.005",
+      "nome": "Comissão",
+      "categoria_grupo_id": "28",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "94",
+      "codigo_interno": "94",
+      "codigo": "3.1.06.006",
+      "nome": "Contribuição sindical",
+      "categoria_grupo_id": "28",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "95",
+      "codigo_interno": "95",
+      "codigo": "3.1.06.007",
+      "nome": "Descanso semanal remunerado",
+      "categoria_grupo_id": "28",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "96",
+      "codigo_interno": "96",
+      "codigo": "3.1.06.008",
+      "nome": "Férias",
+      "categoria_grupo_id": "28",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "97",
+      "codigo_interno": "97",
+      "codigo": "3.1.06.009",
+      "nome": "FGTS",
+      "categoria_grupo_id": "28",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "98",
+      "codigo_interno": "98",
+      "codigo": "3.1.06.010",
+      "nome": "Horas extras",
+      "categoria_grupo_id": "28",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "99",
+      "codigo_interno": "99",
+      "codigo": "3.1.06.011",
+      "nome": "INSS",
+      "categoria_grupo_id": "28",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "100",
+      "codigo_interno": "100",
+      "codigo": "3.1.06.012",
+      "nome": "IRRF",
+      "categoria_grupo_id": "28",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "101",
+      "codigo_interno": "101",
+      "codigo": "3.1.06.013",
+      "nome": "Plano de saúde",
+      "categoria_grupo_id": "28",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "102",
+      "codigo_interno": "102",
+      "codigo": "3.1.06.014",
+      "nome": "Salário",
+      "categoria_grupo_id": "28",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "103",
+      "codigo_interno": "103",
+      "codigo": "3.1.06.015",
+      "nome": "Salário família",
+      "categoria_grupo_id": "28",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "104",
+      "codigo_interno": "104",
+      "codigo": "3.1.06.016",
+      "nome": "Seguro",
+      "categoria_grupo_id": "28",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "105",
+      "codigo_interno": "105",
+      "codigo": "3.1.06.017",
+      "nome": "Vale alimentação",
+      "categoria_grupo_id": "28",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "106",
+      "codigo_interno": "106",
+      "codigo": "3.1.06.018",
+      "nome": "Vale transporte",
+      "categoria_grupo_id": "28",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "107",
+      "codigo_interno": "107",
+      "codigo": "3.1.06.019",
+      "nome": "(-) Desconto de contribuição sindical",
+      "categoria_grupo_id": "29",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "108",
+      "codigo_interno": "108",
+      "codigo": "3.1.06.020",
+      "nome": "(-) Desconto de faltas",
+      "categoria_grupo_id": "29",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "109",
+      "codigo_interno": "109",
+      "codigo": "3.1.06.021",
+      "nome": "(-) Desconto de INSS",
+      "categoria_grupo_id": "29",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "110",
+      "codigo_interno": "110",
+      "codigo": "3.1.06.022",
+      "nome": "(-) Desconto de IRRF",
+      "categoria_grupo_id": "29",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "111",
+      "codigo_interno": "111",
+      "codigo": "3.1.06.023",
+      "nome": "(-) Desconto de plano de saúde",
+      "categoria_grupo_id": "29",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "112",
+      "codigo_interno": "112",
+      "codigo": "3.1.06.024",
+      "nome": "(-) Desconto de vale alimentação",
+      "categoria_grupo_id": "29",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "113",
+      "codigo_interno": "113",
+      "codigo": "3.1.06.025",
+      "nome": "(-) Desconto de vale transporte",
+      "categoria_grupo_id": "29",
+      "credito_debito": "C",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "114",
+      "codigo_interno": "114",
+      "codigo": "3.1.07",
+      "nome": "DESPESAS COM SÓCIOS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "115",
+      "codigo_interno": "115",
+      "codigo": "3.1.08",
+      "nome": "OUTRAS DESPESAS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "116",
+      "codigo_interno": "116",
+      "codigo": "4",
+      "nome": "INVESTIMENTOS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "1"
+    },
+    {
+      "categoria_id": "117",
+      "codigo_interno": "117",
+      "codigo": "4.1.01",
+      "nome": "INVESTIMENTOS RENTÁVEIS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "118",
+      "codigo_interno": "118",
+      "codigo": "4.1.01.001",
+      "nome": "Títulos",
+      "categoria_grupo_id": "32",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "119",
+      "codigo_interno": "119",
+      "codigo": "4.1.01.002",
+      "nome": "Ações",
+      "categoria_grupo_id": "32",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "120",
+      "codigo_interno": "120",
+      "codigo": "4.1.02",
+      "nome": "INVESTIMENTOS EM IMOBILIZADO",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "121",
+      "codigo_interno": "121",
+      "codigo": "4.1.02.001",
+      "nome": "Compra de veículos",
+      "categoria_grupo_id": "33",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "122",
+      "codigo_interno": "122",
+      "codigo": "4.1.02.002",
+      "nome": "Compra de máquinas",
+      "categoria_grupo_id": "33",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "123",
+      "codigo_interno": "123",
+      "codigo": "4.1.02.003",
+      "nome": "Compra de equipamentos",
+      "categoria_grupo_id": "33",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "124",
+      "codigo_interno": "124",
+      "codigo": "4.1.02.004",
+      "nome": "Compra de móveis",
+      "categoria_grupo_id": "33",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "125",
+      "codigo_interno": "125",
+      "codigo": "4.1.02.005",
+      "nome": "Compra de imóveis",
+      "categoria_grupo_id": "33",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "126",
+      "codigo_interno": "126",
+      "codigo": "4.1.03",
+      "nome": "INVESTIMENTOS EM INTANGÍVEIS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "127",
+      "codigo_interno": "127",
+      "codigo": "4.1.03.001",
+      "nome": "Registro de marcas e patentes",
+      "categoria_grupo_id": "34",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "128",
+      "codigo_interno": "128",
+      "codigo": "4.1.03.002",
+      "nome": "Pesquisa e desenvolvimento",
+      "categoria_grupo_id": "34",
+      "credito_debito": "D",
+      "analitica_sintetica": "A",
+      "nivel": "4"
+    },
+    {
+      "categoria_id": "129",
+      "codigo_interno": "129",
+      "codigo": "5",
+      "nome": "EMPRÉSTIMOS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "1"
+    },
+    {
+      "categoria_id": "130",
+      "codigo_interno": "130",
+      "codigo": "5.1.01",
+      "nome": "TOMADAS DE EMPRÉSTIMOS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "131",
+      "codigo_interno": "131",
+      "codigo": "5.1.02",
+      "nome": "PAGAMENTOS DE EMPRESTIMOS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "132",
+      "codigo_interno": "132",
+      "codigo": "5.1.03",
+      "nome": "PAGAMENTOS DE JUROS DE EMPRESTIMOS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "133",
+      "codigo_interno": "133",
+      "codigo": "6",
+      "nome": "TERCEIROS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "1"
+    },
+    {
+      "categoria_id": "134",
+      "codigo_interno": "134",
+      "codigo": "6.1.01",
+      "nome": "CRÉDITOS DE TERCEIROS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    },
+    {
+      "categoria_id": "135",
+      "codigo_interno": "135",
+      "codigo": "6.1.02",
+      "nome": "DÉBITOS DE TERCEIROS",
+      "categoria_grupo_id": "",
+      "credito_debito": "",
+      "analitica_sintetica": "S",
+      "nivel": "3"
+    }
+  ]
+}

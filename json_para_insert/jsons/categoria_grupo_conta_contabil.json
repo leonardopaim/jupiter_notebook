@@ -1,0 +1,3725 @@
+{
+  "versao": 1,
+  "categoria_grupo_conta_contabil": [
+    {
+      "categoria_grupo_id": "1",
+      "conta_contabil_id": "4",
+      "origem": "1",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "1",
+      "conta_contabil_id": "9",
+      "origem": "1",
+      "saldo": "2",
+      "valor": "2",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "1",
+      "conta_contabil_id": "29",
+      "origem": "1",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "1",
+      "conta_contabil_id": "34",
+      "origem": "1",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "1",
+      "conta_contabil_id": "34",
+      "origem": "1",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "1",
+      "conta_contabil_id": "56",
+      "origem": "1",
+      "saldo": "1",
+      "valor": "2",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "1",
+      "conta_contabil_id": "78",
+      "origem": "1",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "1",
+      "conta_contabil_id": "78",
+      "origem": "1",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "2",
+      "conta_contabil_id": "6",
+      "origem": "2",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "2",
+      "conta_contabil_id": "9",
+      "origem": "2",
+      "saldo": "2",
+      "valor": "2",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "2",
+      "conta_contabil_id": "29",
+      "origem": "2",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "2",
+      "conta_contabil_id": "34",
+      "origem": "2",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "2",
+      "conta_contabil_id": "56",
+      "origem": "2",
+      "saldo": "1",
+      "valor": "2",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "2",
+      "conta_contabil_id": "78",
+      "origem": "2",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "3",
+      "conta_contabil_id": "4",
+      "origem": "1",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "3",
+      "conta_contabil_id": "29",
+      "origem": "1",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "3",
+      "conta_contabil_id": "35",
+      "origem": "1",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "3",
+      "conta_contabil_id": "35",
+      "origem": "1",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "3",
+      "conta_contabil_id": "78",
+      "origem": "1",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "3",
+      "conta_contabil_id": "78",
+      "origem": "1",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "4",
+      "conta_contabil_id": "6",
+      "origem": "2",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "4",
+      "conta_contabil_id": "29",
+      "origem": "2",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "4",
+      "conta_contabil_id": "35",
+      "origem": "2",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "4",
+      "conta_contabil_id": "78",
+      "origem": "2",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "5",
+      "conta_contabil_id": "4",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "5",
+      "conta_contabil_id": "6",
+      "origem": "9",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "5",
+      "conta_contabil_id": "29",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "5",
+      "conta_contabil_id": "36",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "5",
+      "conta_contabil_id": "50",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "5",
+      "conta_contabil_id": "50",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "5",
+      "conta_contabil_id": "71",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "5",
+      "conta_contabil_id": "71",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "5",
+      "conta_contabil_id": "78",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "5",
+      "conta_contabil_id": "78",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "6",
+      "conta_contabil_id": "4",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "6",
+      "conta_contabil_id": "6",
+      "origem": "9",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "6",
+      "conta_contabil_id": "29",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "6",
+      "conta_contabil_id": "37",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "6",
+      "conta_contabil_id": "50",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "6",
+      "conta_contabil_id": "50",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "6",
+      "conta_contabil_id": "71",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "6",
+      "conta_contabil_id": "71",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "6",
+      "conta_contabil_id": "78",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "6",
+      "conta_contabil_id": "78",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "7",
+      "conta_contabil_id": "4",
+      "origem": "5",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "7",
+      "conta_contabil_id": "9",
+      "origem": "5",
+      "saldo": "1",
+      "valor": "2",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "7",
+      "conta_contabil_id": "29",
+      "origem": "5",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "7",
+      "conta_contabil_id": "38",
+      "origem": "5",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "7",
+      "conta_contabil_id": "38",
+      "origem": "5",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "7",
+      "conta_contabil_id": "56",
+      "origem": "5",
+      "saldo": "2",
+      "valor": "2",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "7",
+      "conta_contabil_id": "78",
+      "origem": "5",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "7",
+      "conta_contabil_id": "78",
+      "origem": "5",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "8",
+      "conta_contabil_id": "6",
+      "origem": "6",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "8",
+      "conta_contabil_id": "9",
+      "origem": "6",
+      "saldo": "1",
+      "valor": "2",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "8",
+      "conta_contabil_id": "29",
+      "origem": "6",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "8",
+      "conta_contabil_id": "38",
+      "origem": "6",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "8",
+      "conta_contabil_id": "56",
+      "origem": "6",
+      "saldo": "2",
+      "valor": "2",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "8",
+      "conta_contabil_id": "78",
+      "origem": "6",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "9",
+      "conta_contabil_id": "4",
+      "origem": "5",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "9",
+      "conta_contabil_id": "29",
+      "origem": "5",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "9",
+      "conta_contabil_id": "39",
+      "origem": "5",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "9",
+      "conta_contabil_id": "39",
+      "origem": "5",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "9",
+      "conta_contabil_id": "78",
+      "origem": "5",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "9",
+      "conta_contabil_id": "78",
+      "origem": "5",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "10",
+      "conta_contabil_id": "6",
+      "origem": "6",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "10",
+      "conta_contabil_id": "29",
+      "origem": "6",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "10",
+      "conta_contabil_id": "39",
+      "origem": "6",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "10",
+      "conta_contabil_id": "78",
+      "origem": "6",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "11",
+      "conta_contabil_id": "6",
+      "origem": "15",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "11",
+      "conta_contabil_id": "29",
+      "origem": "15",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "11",
+      "conta_contabil_id": "41",
+      "origem": "15",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "11",
+      "conta_contabil_id": "78",
+      "origem": "15",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "12",
+      "conta_contabil_id": "4",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "12",
+      "conta_contabil_id": "6",
+      "origem": "9",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "12",
+      "conta_contabil_id": "29",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "12",
+      "conta_contabil_id": "41",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "12",
+      "conta_contabil_id": "50",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "12",
+      "conta_contabil_id": "50",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "12",
+      "conta_contabil_id": "71",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "12",
+      "conta_contabil_id": "71",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "12",
+      "conta_contabil_id": "78",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "12",
+      "conta_contabil_id": "78",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "4",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "4",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "7",
+      "origem": "9",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "7",
+      "origem": "12",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "25",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "25",
+      "origem": "12",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "29",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "45",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "45",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "45",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "45",
+      "origem": "12",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "50",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "50",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "71",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "71",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "78",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "78",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "13",
+      "conta_contabil_id": "78",
+      "origem": "12",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "14",
+      "conta_contabil_id": "4",
+      "origem": "1",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "14",
+      "conta_contabil_id": "4",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "14",
+      "conta_contabil_id": "7",
+      "origem": "2",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "14",
+      "conta_contabil_id": "7",
+      "origem": "9",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "14",
+      "conta_contabil_id": "13",
+      "origem": "1",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "14",
+      "conta_contabil_id": "13",
+      "origem": "2",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "14",
+      "conta_contabil_id": "29",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "14",
+      "conta_contabil_id": "46",
+      "origem": "1",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "14",
+      "conta_contabil_id": "46",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "14",
+      "conta_contabil_id": "50",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "14",
+      "conta_contabil_id": "50",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "14",
+      "conta_contabil_id": "71",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "14",
+      "conta_contabil_id": "71",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "14",
+      "conta_contabil_id": "78",
+      "origem": "1",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "14",
+      "conta_contabil_id": "78",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "14",
+      "conta_contabil_id": "78",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "15",
+      "conta_contabil_id": "4",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "15",
+      "conta_contabil_id": "4",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "15",
+      "conta_contabil_id": "7",
+      "origem": "9",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "15",
+      "conta_contabil_id": "7",
+      "origem": "12",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "15",
+      "conta_contabil_id": "12",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "15",
+      "conta_contabil_id": "12",
+      "origem": "12",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "15",
+      "conta_contabil_id": "29",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "15",
+      "conta_contabil_id": "47",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "15",
+      "conta_contabil_id": "47",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "15",
+      "conta_contabil_id": "50",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "15",
+      "conta_contabil_id": "50",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "15",
+      "conta_contabil_id": "71",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "15",
+      "conta_contabil_id": "71",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "15",
+      "conta_contabil_id": "78",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "15",
+      "conta_contabil_id": "78",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "15",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "4",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "4",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "7",
+      "origem": "9",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "7",
+      "origem": "12",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "29",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "29",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "29",
+      "origem": "12",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "48",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "48",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "48",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "48",
+      "origem": "12",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "50",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "50",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "71",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "71",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "78",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "78",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "16",
+      "conta_contabil_id": "78",
+      "origem": "12",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "4",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "4",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "7",
+      "origem": "9",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "7",
+      "origem": "12",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "29",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "29",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "29",
+      "origem": "12",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "50",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "50",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "52",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "52",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "52",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "52",
+      "origem": "12",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "71",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "71",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "78",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "78",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "17",
+      "conta_contabil_id": "78",
+      "origem": "12",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "18",
+      "conta_contabil_id": "4",
+      "origem": "3",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "18",
+      "conta_contabil_id": "9",
+      "origem": "3",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "18",
+      "conta_contabil_id": "56",
+      "origem": "3",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "18",
+      "conta_contabil_id": "78",
+      "origem": "3",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "19",
+      "conta_contabil_id": "9",
+      "origem": "4",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "19",
+      "conta_contabil_id": "18",
+      "origem": "4",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "20",
+      "conta_contabil_id": "4",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "20",
+      "conta_contabil_id": "18",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "20",
+      "conta_contabil_id": "29",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "20",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "20",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "20",
+      "conta_contabil_id": "56",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "20",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "20",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "20",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "20",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "21",
+      "conta_contabil_id": "4",
+      "origem": "7",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "21",
+      "conta_contabil_id": "9",
+      "origem": "7",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "21",
+      "conta_contabil_id": "56",
+      "origem": "7",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "21",
+      "conta_contabil_id": "78",
+      "origem": "7",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "22",
+      "conta_contabil_id": "9",
+      "origem": "8",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "22",
+      "conta_contabil_id": "18",
+      "origem": "8",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "4",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "4",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "21",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "21",
+      "origem": "13",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "29",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "29",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "29",
+      "origem": "13",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "63",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "63",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "63",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "63",
+      "origem": "13",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "23",
+      "conta_contabil_id": "78",
+      "origem": "13",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "4",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "4",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "21",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "21",
+      "origem": "13",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "29",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "29",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "29",
+      "origem": "13",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "64",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "64",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "64",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "64",
+      "origem": "13",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "24",
+      "conta_contabil_id": "78",
+      "origem": "13",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "4",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "4",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "21",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "21",
+      "origem": "13",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "29",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "29",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "29",
+      "origem": "13",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "65",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "65",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "65",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "65",
+      "origem": "13",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "25",
+      "conta_contabil_id": "78",
+      "origem": "13",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "4",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "4",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "21",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "21",
+      "origem": "13",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "29",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "29",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "29",
+      "origem": "13",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "66",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "66",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "66",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "66",
+      "origem": "13",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "26",
+      "conta_contabil_id": "78",
+      "origem": "13",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "4",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "4",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "21",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "21",
+      "origem": "13",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "29",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "29",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "29",
+      "origem": "13",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "67",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "67",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "67",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "67",
+      "origem": "13",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "27",
+      "conta_contabil_id": "78",
+      "origem": "13",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "28",
+      "conta_contabil_id": "4",
+      "origem": "14",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "28",
+      "conta_contabil_id": "29",
+      "origem": "14",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "28",
+      "conta_contabil_id": "68",
+      "origem": "14",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "28",
+      "conta_contabil_id": "68",
+      "origem": "14",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "28",
+      "conta_contabil_id": "78",
+      "origem": "14",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "28",
+      "conta_contabil_id": "78",
+      "origem": "14",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "29",
+      "conta_contabil_id": "4",
+      "origem": "14",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "29",
+      "conta_contabil_id": "29",
+      "origem": "14",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "29",
+      "conta_contabil_id": "68",
+      "origem": "14",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "29",
+      "conta_contabil_id": "68",
+      "origem": "14",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "29",
+      "conta_contabil_id": "78",
+      "origem": "14",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "29",
+      "conta_contabil_id": "78",
+      "origem": "14",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "4",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "4",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "21",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "21",
+      "origem": "13",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "29",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "29",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "29",
+      "origem": "13",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "69",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "69",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "69",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "69",
+      "origem": "13",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "30",
+      "conta_contabil_id": "78",
+      "origem": "13",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "4",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "4",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "21",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "21",
+      "origem": "13",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "29",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "29",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "29",
+      "origem": "13",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "74",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "74",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "74",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "74",
+      "origem": "13",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "31",
+      "conta_contabil_id": "78",
+      "origem": "13",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "32",
+      "conta_contabil_id": "4",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "32",
+      "conta_contabil_id": "4",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "32",
+      "conta_contabil_id": "12",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "32",
+      "conta_contabil_id": "12",
+      "origem": "13",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "32",
+      "conta_contabil_id": "21",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "32",
+      "conta_contabil_id": "21",
+      "origem": "13",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "32",
+      "conta_contabil_id": "29",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "32",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "32",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "32",
+      "conta_contabil_id": "58",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "32",
+      "conta_contabil_id": "58",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "32",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "32",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "32",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "32",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "32",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "33",
+      "conta_contabil_id": "4",
+      "origem": "3",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "33",
+      "conta_contabil_id": "4",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "33",
+      "conta_contabil_id": "13",
+      "origem": "3",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "33",
+      "conta_contabil_id": "13",
+      "origem": "4",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "33",
+      "conta_contabil_id": "21",
+      "origem": "4",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "33",
+      "conta_contabil_id": "21",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "33",
+      "conta_contabil_id": "29",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "33",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "33",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "33",
+      "conta_contabil_id": "59",
+      "origem": "3",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "33",
+      "conta_contabil_id": "59",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "33",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "33",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "33",
+      "conta_contabil_id": "78",
+      "origem": "3",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "33",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "33",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "34",
+      "conta_contabil_id": "4",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "34",
+      "conta_contabil_id": "4",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "34",
+      "conta_contabil_id": "14",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "34",
+      "conta_contabil_id": "14",
+      "origem": "13",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "34",
+      "conta_contabil_id": "21",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "34",
+      "conta_contabil_id": "21",
+      "origem": "13",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "34",
+      "conta_contabil_id": "29",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "34",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "34",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "34",
+      "conta_contabil_id": "60",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "34",
+      "conta_contabil_id": "60",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "34",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "34",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "34",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "34",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "34",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "35",
+      "conta_contabil_id": "4",
+      "origem": "16",
+      "saldo": "1",
+      "valor": "3",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "35",
+      "conta_contabil_id": "19",
+      "origem": "16",
+      "saldo": "1",
+      "valor": "4",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "35",
+      "conta_contabil_id": "20",
+      "origem": "16",
+      "saldo": "2",
+      "valor": "6",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "35",
+      "conta_contabil_id": "29",
+      "origem": "16",
+      "saldo": "2",
+      "valor": "5",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "35",
+      "conta_contabil_id": "65",
+      "origem": "16",
+      "saldo": "1",
+      "valor": "5",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "35",
+      "conta_contabil_id": "65",
+      "origem": "16",
+      "saldo": "1",
+      "valor": "5",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "35",
+      "conta_contabil_id": "78",
+      "origem": "16",
+      "saldo": "2",
+      "valor": "5",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "35",
+      "conta_contabil_id": "78",
+      "origem": "16",
+      "saldo": "2",
+      "valor": "5",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "36",
+      "conta_contabil_id": "4",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "36",
+      "conta_contabil_id": "19",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "36",
+      "conta_contabil_id": "29",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "36",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "36",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "36",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "36",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "36",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "36",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "37",
+      "conta_contabil_id": "4",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "37",
+      "conta_contabil_id": "19",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "37",
+      "conta_contabil_id": "20",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "37",
+      "conta_contabil_id": "29",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "37",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "37",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "37",
+      "conta_contabil_id": "65",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "37",
+      "conta_contabil_id": "65",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "37",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "37",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "37",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "37",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "4",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "4",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "7",
+      "origem": "9",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "7",
+      "origem": "12",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "29",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "30",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "30",
+      "origem": "12",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "50",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "50",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "51",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "51",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "51",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "51",
+      "origem": "12",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "71",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "71",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "78",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "78",
+      "origem": "9",
+      "saldo": "1",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "38",
+      "conta_contabil_id": "78",
+      "origem": "12",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "4",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "4",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "21",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "7",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "21",
+      "origem": "13",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "29",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "30",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "30",
+      "origem": "13",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "49",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "8",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "72",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "9",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "73",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "7",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "73",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "73",
+      "origem": "11",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "73",
+      "origem": "13",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "1",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "78",
+      "origem": "10",
+      "saldo": "2",
+      "valor": "10",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "1"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "78",
+      "origem": "11",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    },
+    {
+      "categoria_grupo_id": "39",
+      "conta_contabil_id": "78",
+      "origem": "13",
+      "saldo": "2",
+      "valor": "1",
+      "regime": "2"
+    }
+  ]
+}
