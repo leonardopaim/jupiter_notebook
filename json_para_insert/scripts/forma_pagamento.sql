@@ -1,6 +1,0 @@
-insert into forma_pagamento (codigo_interno, nome, pagamento, grupo_pagamento, forma_pagamento_nfe, abre_gaveta, tef, saldo, atualizado) values (1, "Dinheiro", 1, 1, 1, True, False, True, True, NOW());
-insert into forma_pagamento (codigo_interno, nome, pagamento, grupo_pagamento, forma_pagamento_nfe, abre_gaveta, tef, saldo, atualizado) values (2, "Cheque", 1, 2, 2, True, False, True, True, NOW());
-insert into forma_pagamento (codigo_interno, nome, pagamento, grupo_pagamento, forma_pagamento_nfe, abre_gaveta, tef, saldo, atualizado) values (3, "Cartão", 1, 3, 99, False, False, False, True, NOW());
-insert into forma_pagamento (codigo_interno, nome, pagamento, grupo_pagamento, forma_pagamento_nfe, abre_gaveta, tef, saldo, atualizado) values (4, "Crédiário", 2, 4, 99, False, False, False, True, NOW());
-insert into forma_pagamento (codigo_interno, nome, pagamento, grupo_pagamento, forma_pagamento_nfe, abre_gaveta, tef, saldo, atualizado) values (5, "Nota de crédito", 1, 5, 99, False, False, True, True, NOW());
-insert into forma_pagamento (codigo_interno, nome, pagamento, grupo_pagamento, forma_pagamento_nfe, abre_gaveta, tef, saldo, atualizado) values (6, "PIX", 1, 6, 6, False, False, True, True, NOW());
