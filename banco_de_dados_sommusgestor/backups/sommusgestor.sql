@@ -39,7 +39,7 @@ CREATE TABLE `aceite` (
   CONSTRAINT `fk_aceite_2` FOREIGN KEY (`empresa_id`) REFERENCES `empresa` (`empresa_id`),
   CONSTRAINT `fk_aceite_3` FOREIGN KEY (`avaliacao_id`) REFERENCES `avaliacao` (`avaliacao_id`),
   CONSTRAINT `fk_aceite_4` FOREIGN KEY (`assinatura_id`) REFERENCES `assinatura` (`assinatura_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -48,7 +48,7 @@ CREATE TABLE `aceite` (
 
 LOCK TABLES `aceite` WRITE;
 /*!40000 ALTER TABLE `aceite` DISABLE KEYS */;
-INSERT INTO `aceite` VALUES (1,2,NULL,NULL,NULL,'2022-10-04 16:37:47','1.2'),(2,3,NULL,NULL,NULL,'2022-10-04 16:37:47','1.2'),(3,9,NULL,NULL,NULL,'2022-10-04 16:37:47','1.2');
+INSERT INTO `aceite` VALUES (1,2,NULL,NULL,NULL,'2022-10-04 16:37:47','1.2'),(2,3,NULL,NULL,NULL,'2022-10-04 16:37:47','1.2'),(3,9,NULL,NULL,NULL,'2022-10-04 16:37:47','1.2'),(4,1,NULL,NULL,NULL,'2022-10-04 18:50:04','1.2');
 /*!40000 ALTER TABLE `aceite` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
@@ -2755,7 +2755,7 @@ CREATE TABLE `usuario_atividade` (
   CONSTRAINT `fk_usuario_atividade_1` FOREIGN KEY (`usuario_id`) REFERENCES `usuario` (`usuario_id`),
   CONSTRAINT `fk_usuario_atividade_2` FOREIGN KEY (`empresa_id`) REFERENCES `empresa` (`empresa_id`),
   CONSTRAINT `fk_usuario_atividade_3` FOREIGN KEY (`produto_servico_id`) REFERENCES `sommusgestor_1`.`produto` (`produto_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -2764,7 +2764,7 @@ CREATE TABLE `usuario_atividade` (
 
 LOCK TABLES `usuario_atividade` WRITE;
 /*!40000 ALTER TABLE `usuario_atividade` DISABLE KEYS */;
-INSERT INTO `usuario_atividade` VALUES (1,1,1,'2022-10-04 16:38:13',1,'',1,0,NULL,0.00),(2,1,1,'2022-10-04 16:38:13',2,'192.168.0.1',0,0,NULL,0.00),(3,1,1,'2022-10-04 16:38:13',3,'',0,0,1,100.00),(4,1,1,'2022-10-04 16:38:13',4,'',0,0,1,50.00),(5,1,1,'2022-10-04 16:38:13',2,'192.168.0.1',0,0,NULL,0.00),(6,1,1,'2022-10-04 16:38:13',2,'192.168.0.1',0,0,NULL,0.00),(7,1,1,'2022-10-04 16:38:13',2,'192.168.0.1',0,0,NULL,0.00),(8,1,1,'2022-10-04 16:38:13',2,'192.168.0.1',0,0,NULL,0.00),(9,1,1,'2022-10-04 16:38:13',1,'',1,19,NULL,0.00),(10,1,1,'2022-10-04 16:38:13',1,'',1,44,NULL,0.00),(11,1,1,'2022-10-04 16:38:13',1,'',1,98,NULL,0.00);
+INSERT INTO `usuario_atividade` VALUES (1,1,1,'2022-10-04 16:38:13',1,'',1,0,NULL,0.00),(2,1,1,'2022-10-04 16:38:13',2,'192.168.0.1',0,0,NULL,0.00),(3,1,1,'2022-10-04 16:38:13',3,'',0,0,1,100.00),(4,1,1,'2022-10-04 16:38:13',4,'',0,0,1,50.00),(5,1,1,'2022-10-04 16:38:13',2,'192.168.0.1',0,0,NULL,0.00),(6,1,1,'2022-10-04 16:38:13',2,'192.168.0.1',0,0,NULL,0.00),(7,1,1,'2022-10-04 16:38:13',2,'192.168.0.1',0,0,NULL,0.00),(8,1,1,'2022-10-04 16:38:13',2,'192.168.0.1',0,0,NULL,0.00),(9,1,1,'2022-10-04 16:38:13',1,'',1,19,NULL,0.00),(10,1,1,'2022-10-04 16:38:13',1,'',1,44,NULL,0.00),(11,1,1,'2022-10-04 16:38:13',1,'',1,98,NULL,0.00),(12,1,1,'2022-10-04 18:50:08',2,'127.0.0.1',0,0,NULL,0.00),(13,1,3,'2022-10-04 21:07:52',2,'127.0.0.1',0,0,NULL,0.00),(14,1,3,'2022-10-04 21:08:06',1,'',2,43,NULL,0.00),(15,1,3,'2022-10-04 21:08:36',1,'',2,43,NULL,0.00);
 /*!40000 ALTER TABLE `usuario_atividade` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
@@ -2836,7 +2836,7 @@ CREATE TABLE `versao` (
   PRIMARY KEY (`versao_id`),
   UNIQUE KEY `uk_versao_1` (`tipo`,`versao`),
   KEY `k_versao_1` (`versao`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -2845,7 +2845,7 @@ CREATE TABLE `versao` (
 
 LOCK TABLES `versao` WRITE;
 /*!40000 ALTER TABLE `versao` DISABLE KEYS */;
-INSERT INTO `versao` VALUES (1,2,'20220823.141626.689','2022-10-04 16:37:19','a4b2427e6d5bceda3dfd3cec8c787f83');
+INSERT INTO `versao` VALUES (1,2,'20220823.141626.689','2022-10-04 16:37:19','a4b2427e6d5bceda3dfd3cec8c787f83'),(2,1,'1.0.21.61','2022-10-04 18:49:28','740b5860af9f3959afb83892c9617d4c');
 /*!40000 ALTER TABLE `versao` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
@@ -2916,4 +2916,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-10-04 16:51:35
+-- Dump completed on 2022-10-04 23:26:14
