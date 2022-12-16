@@ -29,7 +29,7 @@ CREATE TABLE `aggregatedcounter` (
   `ExpireAt` datetime DEFAULT NULL,
   PRIMARY KEY (`Id`),
   UNIQUE KEY `IX_CounterAggregated_Key` (`Key`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,6 +38,7 @@ CREATE TABLE `aggregatedcounter` (
 
 LOCK TABLES `aggregatedcounter` WRITE;
 /*!40000 ALTER TABLE `aggregatedcounter` DISABLE KEYS */;
+INSERT INTO `aggregatedcounter` VALUES (1,'stats:succeeded',3,NULL),(2,'stats:succeeded:2022-10-26',1,'2022-11-26 19:26:30'),(3,'stats:succeeded:2022-10-26-19',1,'2022-10-27 19:26:30'),(4,'stats:succeeded:2022-10-27',2,'2022-11-27 18:38:32'),(5,'stats:succeeded:2022-10-27-11',1,'2022-10-28 11:34:44'),(7,'stats:succeeded:2022-10-27-18',1,'2022-10-28 18:38:32');
 /*!40000 ALTER TABLE `aggregatedcounter` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -55,7 +56,7 @@ CREATE TABLE `counter` (
   `ExpireAt` datetime DEFAULT NULL,
   PRIMARY KEY (`Id`),
   KEY `IX_Counter_Key` (`Key`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -64,7 +65,6 @@ CREATE TABLE `counter` (
 
 LOCK TABLES `counter` WRITE;
 /*!40000 ALTER TABLE `counter` DISABLE KEYS */;
-INSERT INTO `counter` VALUES (1,'stats:succeeded:2022-11-11',1,'2022-12-11 19:48:28'),(2,'stats:succeeded:2022-11-11-19',1,'2022-11-12 19:48:28'),(3,'stats:succeeded',1,NULL);
 /*!40000 ALTER TABLE `counter` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -134,7 +134,7 @@ CREATE TABLE `job` (
   `ExpireAt` datetime(6) DEFAULT NULL,
   PRIMARY KEY (`Id`),
   KEY `IX_Job_StateName` (`StateName`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -143,7 +143,7 @@ CREATE TABLE `job` (
 
 LOCK TABLES `job` WRITE;
 /*!40000 ALTER TABLE `job` DISABLE KEYS */;
-INSERT INTO `job` VALUES (1,3,'Succeeded','{\"Type\":\"Sommus.Gestor.Cadastros.Application.Application.ContaApplication, Sommus.Gestor.Cadastros.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\",\"Method\":\"RecalcularSaldoTodasContas\",\"ParameterTypes\":\"[\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\"]\",\"Arguments\":\"[\\\"2\\\",\\\"3\\\",\\\"1\\\"]\"}','[\"2\",\"3\",\"1\"]','2022-11-11 19:48:23.696452','2022-11-12 19:48:28.332406');
+INSERT INTO `job` VALUES (1,3,'Succeeded','{\"Type\":\"Sommus.Gestor.Cadastros.Application.Application.ContaApplication, Sommus.Gestor.Cadastros.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\",\"Method\":\"RecalcularSaldoTodasContas\",\"ParameterTypes\":\"[\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\"]\",\"Arguments\":\"[\\\"2\\\",\\\"3\\\",\\\"1\\\"]\"}','[\"2\",\"3\",\"1\"]','2022-10-26 19:26:25.916427','2022-10-27 19:26:30.251459'),(2,6,'Succeeded','{\"Type\":\"Sommus.Gestor.Cadastros.Application.Application.ContaApplication, Sommus.Gestor.Cadastros.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\",\"Method\":\"RecalcularSaldoTodasContas\",\"ParameterTypes\":\"[\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\"]\",\"Arguments\":\"[\\\"2\\\",\\\"3\\\",\\\"1\\\"]\"}','[\"2\",\"3\",\"1\"]','2022-10-27 11:34:41.890107','2022-10-28 11:34:44.186841'),(3,7,'Scheduled','{\"Type\":\"Sommus.Gestor.Core.Infra.Email.EmailService, Sommus.Gestor.Core.Infra, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\",\"Method\":\"Envia\",\"ParameterTypes\":\"[\\\"System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\"]\",\"Arguments\":\"[\\\"[\\\\\\\"leohpaim@gmail.com\\\\\\\"]\\\",\\\"\\\\\\\"SommusGestor - Agenda\\\\\\\"\\\",\\\"\\\\\\\"Compromisso da Agenda\\\\\\\"\\\",\\\"\\\\\\\"Olá, temos um lembrete pra você.<br /><br />Retornar para cliente e verificar se já avaliou a proposta.<br /><br />Marcado para: <b>domingo, 30 de outubro de 2022 às 15:38</b>\\\\\\\"\\\"]\"}','[\"[\\\"leohpaim@gmail.com\\\"]\",\"\\\"SommusGestor - Agenda\\\"\",\"\\\"Compromisso da Agenda\\\"\",\"\\\"Olá, temos um lembrete pra você.<br /><br />Retornar para cliente e verificar se já avaliou a proposta.<br /><br />Marcado para: <b>domingo, 30 de outubro de 2022 às 15:38</b>\\\"\"]','2022-10-27 18:38:29.278757',NULL),(4,10,'Succeeded','{\"Type\":\"Sommus.Gestor.Cadastros.Application.Application.ContaApplication, Sommus.Gestor.Cadastros.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\",\"Method\":\"RecalcularSaldoTodasContas\",\"ParameterTypes\":\"[\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\"]\",\"Arguments\":\"[\\\"10\\\",\\\"17\\\",\\\"17\\\"]\"}','[\"10\",\"17\",\"17\"]','2022-10-27 18:38:29.696424','2022-10-28 18:38:31.959158');
 /*!40000 ALTER TABLE `job` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -163,7 +163,7 @@ CREATE TABLE `jobparameter` (
   UNIQUE KEY `IX_JobParameter_JobId_Name` (`JobId`,`Name`),
   KEY `FK_JobParameter_Job` (`JobId`),
   CONSTRAINT `FK_JobParameter_Job` FOREIGN KEY (`JobId`) REFERENCES `job` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -172,7 +172,7 @@ CREATE TABLE `jobparameter` (
 
 LOCK TABLES `jobparameter` WRITE;
 /*!40000 ALTER TABLE `jobparameter` DISABLE KEYS */;
-INSERT INTO `jobparameter` VALUES (1,1,'CurrentCulture','\"pt-BR\"'),(2,1,'CurrentUICulture','\"pt-BR\"');
+INSERT INTO `jobparameter` VALUES (1,1,'CurrentCulture','\"pt-BR\"'),(2,1,'CurrentUICulture','\"pt-BR\"'),(3,2,'CurrentCulture','\"pt-BR\"'),(4,2,'CurrentUICulture','\"pt-BR\"'),(5,3,'CurrentCulture','\"pt-BR\"'),(6,3,'CurrentUICulture','\"pt-BR\"'),(7,4,'CurrentCulture','\"pt-BR\"'),(8,4,'CurrentUICulture','\"pt-BR\"');
 /*!40000 ALTER TABLE `jobparameter` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -191,7 +191,7 @@ CREATE TABLE `jobqueue` (
   `FetchToken` varchar(36) DEFAULT NULL,
   PRIMARY KEY (`Id`),
   KEY `IX_JobQueue_QueueAndFetchedAt` (`Queue`,`FetchedAt`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -278,7 +278,7 @@ CREATE TABLE `server` (
 
 LOCK TABLES `server` WRITE;
 /*!40000 ALTER TABLE `server` DISABLE KEYS */;
-INSERT INTO `server` VALUES ('desktop:19320:d4381647-3d53-44d6-85ac-11296a60a8b3','{\"WorkerCount\":20,\"Queues\":[\"default\"],\"StartedAt\":\"2022-11-11T19:47:42.8093779Z\"}','2022-11-11 19:50:13.095573');
+INSERT INTO `server` VALUES ('desktop:3092:a92587b8-3c4e-4aec-842a-6fe6cf2a5c3f','{\"WorkerCount\":20,\"Queues\":[\"default\"],\"StartedAt\":\"2022-10-27T11:30:43.5252864Z\"}','2022-10-27 19:17:13.236537');
 /*!40000 ALTER TABLE `server` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -297,7 +297,7 @@ CREATE TABLE `set` (
   `ExpireAt` datetime DEFAULT NULL,
   PRIMARY KEY (`Id`),
   UNIQUE KEY `IX_Set_Key_Value` (`Key`,`Value`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -306,6 +306,7 @@ CREATE TABLE `set` (
 
 LOCK TABLES `set` WRITE;
 /*!40000 ALTER TABLE `set` DISABLE KEYS */;
+INSERT INTO `set` VALUES (1,'schedule','3',1667120000,NULL);
 /*!40000 ALTER TABLE `set` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -326,7 +327,7 @@ CREATE TABLE `state` (
   PRIMARY KEY (`Id`),
   KEY `FK_HangFire_State_Job` (`JobId`),
   CONSTRAINT `FK_HangFire_State_Job` FOREIGN KEY (`JobId`) REFERENCES `job` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -335,7 +336,7 @@ CREATE TABLE `state` (
 
 LOCK TABLES `state` WRITE;
 /*!40000 ALTER TABLE `state` DISABLE KEYS */;
-INSERT INTO `state` VALUES (1,1,'Enqueued',NULL,'2022-11-11 19:48:23.735972','{\"EnqueuedAt\":\"2022-11-11T19:48:23.6704549Z\",\"Queue\":\"default\"}'),(2,1,'Processing',NULL,'2022-11-11 19:48:28.136775','{\"StartedAt\":\"2022-11-11T19:48:28.1217582Z\",\"ServerId\":\"desktop:19320:d4381647-3d53-44d6-85ac-11296a60a8b3\",\"WorkerId\":\"fac6812e-3584-4a2d-ba73-ca94b49368c7\"}'),(3,1,'Succeeded',NULL,'2022-11-11 19:48:28.324332','{\"SucceededAt\":\"2022-11-11T19:48:28.3148180Z\",\"PerformanceDuration\":\"162\",\"Latency\":\"4455\"}');
+INSERT INTO `state` VALUES (1,1,'Enqueued',NULL,'2022-10-26 19:26:25.955430','{\"EnqueuedAt\":\"2022-10-26T19:26:25.8944289Z\",\"Queue\":\"default\"}'),(2,1,'Processing',NULL,'2022-10-26 19:26:30.090460','{\"StartedAt\":\"2022-10-26T19:26:30.0664622Z\",\"ServerId\":\"desktop:7956:43f253aa-bd52-4ab0-b31b-2a73c6e6c6a7\",\"WorkerId\":\"f171d488-9ab8-489a-b825-0b7a25f771f1\"}'),(3,1,'Succeeded',NULL,'2022-10-26 19:26:30.247460','{\"SucceededAt\":\"2022-10-26T19:26:30.2354593Z\",\"PerformanceDuration\":\"134\",\"Latency\":\"4185\"}'),(4,2,'Enqueued',NULL,'2022-10-27 11:34:41.920460','{\"EnqueuedAt\":\"2022-10-27T11:34:41.8681068Z\",\"Queue\":\"default\"}'),(5,2,'Processing',NULL,'2022-10-27 11:34:44.073822','{\"StartedAt\":\"2022-10-27T11:34:44.0567954Z\",\"ServerId\":\"desktop:3092:a92587b8-3c4e-4aec-842a-6fe6cf2a5c3f\",\"WorkerId\":\"63d2a7f9-c5a3-415f-96f2-842882b5287b\"}'),(6,2,'Succeeded',NULL,'2022-10-27 11:34:44.183841','{\"SucceededAt\":\"2022-10-27T11:34:44.1749186Z\",\"PerformanceDuration\":\"92\",\"Latency\":\"2192\"}'),(7,3,'Scheduled',NULL,'2022-10-27 18:38:29.287758','{\"EnqueueAt\":\"2022-10-30T08:38:29.1640556Z\",\"ScheduledAt\":\"2022-10-27T18:38:29.2747570Z\"}'),(8,4,'Enqueued',NULL,'2022-10-27 18:38:29.700424','{\"EnqueuedAt\":\"2022-10-27T18:38:29.6954251Z\",\"Queue\":\"default\"}'),(9,4,'Processing',NULL,'2022-10-27 18:38:31.906258','{\"StartedAt\":\"2022-10-27T18:38:31.9032594Z\",\"ServerId\":\"desktop:3092:a92587b8-3c4e-4aec-842a-6fe6cf2a5c3f\",\"WorkerId\":\"78b1b174-c3b7-4dc8-9ed8-b66f248125d3\"}'),(10,4,'Succeeded',NULL,'2022-10-27 18:38:31.958160','{\"SucceededAt\":\"2022-10-27T18:38:31.9541566Z\",\"PerformanceDuration\":\"41\",\"Latency\":\"2214\"}');
 /*!40000 ALTER TABLE `state` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -348,4 +349,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-11 16:50:20
+-- Dump completed on 2022-10-27 16:17:24

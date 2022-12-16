@@ -29,7 +29,7 @@ CREATE TABLE `aggregatedcounter` (
   `ExpireAt` datetime DEFAULT NULL,
   PRIMARY KEY (`Id`),
   UNIQUE KEY `IX_CounterAggregated_Key` (`Key`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,6 +38,7 @@ CREATE TABLE `aggregatedcounter` (
 
 LOCK TABLES `aggregatedcounter` WRITE;
 /*!40000 ALTER TABLE `aggregatedcounter` DISABLE KEYS */;
+INSERT INTO `aggregatedcounter` VALUES (1,'stats:succeeded',1,NULL),(2,'stats:succeeded:2022-11-25',1,'2022-12-25 14:45:35'),(3,'stats:succeeded:2022-11-25-14',1,'2022-11-26 14:45:35');
 /*!40000 ALTER TABLE `aggregatedcounter` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -64,7 +65,6 @@ CREATE TABLE `counter` (
 
 LOCK TABLES `counter` WRITE;
 /*!40000 ALTER TABLE `counter` DISABLE KEYS */;
-INSERT INTO `counter` VALUES (1,'stats:succeeded:2022-11-11',1,'2022-12-11 19:48:28'),(2,'stats:succeeded:2022-11-11-19',1,'2022-11-12 19:48:28'),(3,'stats:succeeded',1,NULL);
 /*!40000 ALTER TABLE `counter` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -143,7 +143,7 @@ CREATE TABLE `job` (
 
 LOCK TABLES `job` WRITE;
 /*!40000 ALTER TABLE `job` DISABLE KEYS */;
-INSERT INTO `job` VALUES (1,3,'Succeeded','{\"Type\":\"Sommus.Gestor.Cadastros.Application.Application.ContaApplication, Sommus.Gestor.Cadastros.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\",\"Method\":\"RecalcularSaldoTodasContas\",\"ParameterTypes\":\"[\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\"]\",\"Arguments\":\"[\\\"2\\\",\\\"3\\\",\\\"1\\\"]\"}','[\"2\",\"3\",\"1\"]','2022-11-11 19:48:23.696452','2022-11-12 19:48:28.332406');
+INSERT INTO `job` VALUES (1,3,'Succeeded','{\"Type\":\"Sommus.Gestor.Cadastros.Application.Application.ContaApplication, Sommus.Gestor.Cadastros.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\",\"Method\":\"RecalcularSaldoTodasContas\",\"ParameterTypes\":\"[\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\"]\",\"Arguments\":\"[\\\"1\\\",\\\"1\\\",\\\"1\\\"]\"}','[\"1\",\"1\",\"1\"]','2022-11-25 14:45:31.353062','2022-11-26 14:45:34.777034');
 /*!40000 ALTER TABLE `job` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -278,7 +278,7 @@ CREATE TABLE `server` (
 
 LOCK TABLES `server` WRITE;
 /*!40000 ALTER TABLE `server` DISABLE KEYS */;
-INSERT INTO `server` VALUES ('desktop:19320:d4381647-3d53-44d6-85ac-11296a60a8b3','{\"WorkerCount\":20,\"Queues\":[\"default\"],\"StartedAt\":\"2022-11-11T19:47:42.8093779Z\"}','2022-11-11 19:50:13.095573');
+INSERT INTO `server` VALUES ('desktop:22808:caab1f6b-727f-4a6e-8ceb-c54975cf2159','{\"WorkerCount\":20,\"Queues\":[\"default\"],\"StartedAt\":\"2022-11-25T14:44:34.2508753Z\"}','2022-11-25 15:37:05.870059');
 /*!40000 ALTER TABLE `server` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -335,7 +335,7 @@ CREATE TABLE `state` (
 
 LOCK TABLES `state` WRITE;
 /*!40000 ALTER TABLE `state` DISABLE KEYS */;
-INSERT INTO `state` VALUES (1,1,'Enqueued',NULL,'2022-11-11 19:48:23.735972','{\"EnqueuedAt\":\"2022-11-11T19:48:23.6704549Z\",\"Queue\":\"default\"}'),(2,1,'Processing',NULL,'2022-11-11 19:48:28.136775','{\"StartedAt\":\"2022-11-11T19:48:28.1217582Z\",\"ServerId\":\"desktop:19320:d4381647-3d53-44d6-85ac-11296a60a8b3\",\"WorkerId\":\"fac6812e-3584-4a2d-ba73-ca94b49368c7\"}'),(3,1,'Succeeded',NULL,'2022-11-11 19:48:28.324332','{\"SucceededAt\":\"2022-11-11T19:48:28.3148180Z\",\"PerformanceDuration\":\"162\",\"Latency\":\"4455\"}');
+INSERT INTO `state` VALUES (1,1,'Enqueued',NULL,'2022-11-25 14:45:31.400116','{\"EnqueuedAt\":\"2022-11-25T14:45:31.3289942Z\",\"Queue\":\"default\"}'),(2,1,'Processing',NULL,'2022-11-25 14:45:34.626782','{\"StartedAt\":\"2022-11-25T14:45:34.6063507Z\",\"ServerId\":\"desktop:22808:caab1f6b-727f-4a6e-8ceb-c54975cf2159\",\"WorkerId\":\"99017ad4-b90e-4859-b459-faa096982aff\"}'),(3,1,'Succeeded',NULL,'2022-11-25 14:45:34.774028','{\"SucceededAt\":\"2022-11-25T14:45:34.7669696Z\",\"PerformanceDuration\":\"131\",\"Latency\":\"3282\"}');
 /*!40000 ALTER TABLE `state` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -348,4 +348,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-11 16:50:20
+-- Dump completed on 2022-11-25 12:37:16
