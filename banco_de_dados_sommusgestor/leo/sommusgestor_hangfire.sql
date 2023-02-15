@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.37, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 5.7.40, for Win64 (x86_64)
 --
 -- Host: localhost    Database: sommusgestor_hangfire
 -- ------------------------------------------------------
--- Server version	5.7.37-log
+-- Server version	5.7.40-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -29,7 +29,7 @@ CREATE TABLE `aggregatedcounter` (
   `ExpireAt` datetime DEFAULT NULL,
   PRIMARY KEY (`Id`),
   UNIQUE KEY `IX_CounterAggregated_Key` (`Key`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,7 +38,6 @@ CREATE TABLE `aggregatedcounter` (
 
 LOCK TABLES `aggregatedcounter` WRITE;
 /*!40000 ALTER TABLE `aggregatedcounter` DISABLE KEYS */;
-INSERT INTO `aggregatedcounter` VALUES (1,'stats:succeeded',4,NULL),(2,'stats:succeeded:2022-10-26',1,'2022-11-26 19:26:30'),(4,'stats:succeeded:2022-10-27',2,'2022-11-27 18:38:32'),(8,'stats:succeeded:2022-10-31',1,'2022-11-30 11:42:08'),(9,'stats:succeeded:2022-10-31-11',1,'2022-11-01 11:42:08');
 /*!40000 ALTER TABLE `aggregatedcounter` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -56,7 +55,7 @@ CREATE TABLE `counter` (
   `ExpireAt` datetime DEFAULT NULL,
   PRIMARY KEY (`Id`),
   KEY `IX_Counter_Key` (`Key`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -134,7 +133,7 @@ CREATE TABLE `job` (
   `ExpireAt` datetime(6) DEFAULT NULL,
   PRIMARY KEY (`Id`),
   KEY `IX_Job_StateName` (`StateName`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -143,7 +142,6 @@ CREATE TABLE `job` (
 
 LOCK TABLES `job` WRITE;
 /*!40000 ALTER TABLE `job` DISABLE KEYS */;
-INSERT INTO `job` VALUES (3,13,'Succeeded','{\"Type\":\"Sommus.Gestor.Core.Infra.Email.EmailService, Sommus.Gestor.Core.Infra, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\",\"Method\":\"Envia\",\"ParameterTypes\":\"[\\\"System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\"]\",\"Arguments\":\"[\\\"[\\\\\\\"leohpaim@gmail.com\\\\\\\"]\\\",\\\"\\\\\\\"SommusGestor - Agenda\\\\\\\"\\\",\\\"\\\\\\\"Compromisso da Agenda\\\\\\\"\\\",\\\"\\\\\\\"Olá, temos um lembrete pra você.<br /><br />Retornar para cliente e verificar se já avaliou a proposta.<br /><br />Marcado para: <b>domingo, 30 de outubro de 2022 às 15:38</b>\\\\\\\"\\\"]\"}','[\"[\\\"leohpaim@gmail.com\\\"]\",\"\\\"SommusGestor - Agenda\\\"\",\"\\\"Compromisso da Agenda\\\"\",\"\\\"Olá, temos um lembrete pra você.<br /><br />Retornar para cliente e verificar se já avaliou a proposta.<br /><br />Marcado para: <b>domingo, 30 de outubro de 2022 às 15:38</b>\\\"\"]','2022-10-27 18:38:29.278757','2022-11-01 11:42:07.709078');
 /*!40000 ALTER TABLE `job` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -163,7 +161,7 @@ CREATE TABLE `jobparameter` (
   UNIQUE KEY `IX_JobParameter_JobId_Name` (`JobId`,`Name`),
   KEY `FK_JobParameter_Job` (`JobId`),
   CONSTRAINT `FK_JobParameter_Job` FOREIGN KEY (`JobId`) REFERENCES `job` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -172,7 +170,6 @@ CREATE TABLE `jobparameter` (
 
 LOCK TABLES `jobparameter` WRITE;
 /*!40000 ALTER TABLE `jobparameter` DISABLE KEYS */;
-INSERT INTO `jobparameter` VALUES (5,3,'CurrentCulture','\"pt-BR\"'),(6,3,'CurrentUICulture','\"pt-BR\"');
 /*!40000 ALTER TABLE `jobparameter` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -191,7 +188,7 @@ CREATE TABLE `jobqueue` (
   `FetchToken` varchar(36) DEFAULT NULL,
   PRIMARY KEY (`Id`),
   KEY `IX_JobQueue_QueueAndFetchedAt` (`Queue`,`FetchedAt`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -296,7 +293,7 @@ CREATE TABLE `set` (
   `ExpireAt` datetime DEFAULT NULL,
   PRIMARY KEY (`Id`),
   UNIQUE KEY `IX_Set_Key_Value` (`Key`,`Value`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -325,7 +322,7 @@ CREATE TABLE `state` (
   PRIMARY KEY (`Id`),
   KEY `FK_HangFire_State_Job` (`JobId`),
   CONSTRAINT `FK_HangFire_State_Job` FOREIGN KEY (`JobId`) REFERENCES `job` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -334,7 +331,6 @@ CREATE TABLE `state` (
 
 LOCK TABLES `state` WRITE;
 /*!40000 ALTER TABLE `state` DISABLE KEYS */;
-INSERT INTO `state` VALUES (7,3,'Scheduled',NULL,'2022-10-27 18:38:29.287758','{\"EnqueueAt\":\"2022-10-30T08:38:29.1640556Z\",\"ScheduledAt\":\"2022-10-27T18:38:29.2747570Z\"}'),(11,3,'Enqueued','Triggered by DelayedJobScheduler','2022-10-31 11:41:51.833232','{\"EnqueuedAt\":\"2022-10-31T11:41:51.7238565Z\",\"Queue\":\"default\"}'),(12,3,'Processing',NULL,'2022-10-31 11:42:06.666235','{\"StartedAt\":\"2022-10-31T11:42:06.6662355Z\",\"ServerId\":\"desktop:17340:05835414-16a4-41da-a281-0d89158ce5bc\",\"WorkerId\":\"5fd1a53a-bcd3-4e4c-b5f5-02ba2d8e5705\"}'),(13,3,'Succeeded',NULL,'2022-10-31 11:42:07.703078','{\"SucceededAt\":\"2022-10-31T11:42:07.6940781Z\",\"PerformanceDuration\":\"1010\",\"Latency\":\"320617403\"}');
 /*!40000 ALTER TABLE `state` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -347,4 +343,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-10-31 20:32:20
+-- Dump completed on 2023-02-15 14:33:03

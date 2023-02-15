@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.7.37, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 5.7.40, for Win64 (x86_64)
 --
 -- Host: localhost    Database: sommusgestor_hangfire
 -- ------------------------------------------------------
--- Server version	5.7.37-log
+-- Server version	5.7.40-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -29,7 +29,7 @@ CREATE TABLE `aggregatedcounter` (
   `ExpireAt` datetime DEFAULT NULL,
   PRIMARY KEY (`Id`),
   UNIQUE KEY `IX_CounterAggregated_Key` (`Key`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,7 +38,7 @@ CREATE TABLE `aggregatedcounter` (
 
 LOCK TABLES `aggregatedcounter` WRITE;
 /*!40000 ALTER TABLE `aggregatedcounter` DISABLE KEYS */;
-INSERT INTO `aggregatedcounter` VALUES (1,'stats:succeeded',2,NULL),(2,'stats:succeeded:2022-11-18',2,'2022-12-18 18:24:03'),(3,'stats:succeeded:2022-11-18-18',2,'2022-11-19 18:24:03');
+INSERT INTO `aggregatedcounter` VALUES (1,'stats:succeeded',3,NULL),(2,'stats:succeeded:2023-02-03',2,'2023-03-03 20:52:57'),(3,'stats:succeeded:2023-02-13',1,'2023-03-13 19:42:44'),(4,'stats:succeeded:2023-02-13-19',1,'2023-02-14 19:42:44');
 /*!40000 ALTER TABLE `aggregatedcounter` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -56,7 +56,7 @@ CREATE TABLE `counter` (
   `ExpireAt` datetime DEFAULT NULL,
   PRIMARY KEY (`Id`),
   KEY `IX_Counter_Key` (`Key`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -143,7 +143,7 @@ CREATE TABLE `job` (
 
 LOCK TABLES `job` WRITE;
 /*!40000 ALTER TABLE `job` DISABLE KEYS */;
-INSERT INTO `job` VALUES (1,3,'Succeeded','{\"Type\":\"Sommus.Gestor.Cadastros.Application.Application.ContaApplication, Sommus.Gestor.Cadastros.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\",\"Method\":\"RecalcularSaldoTodasContas\",\"ParameterTypes\":\"[\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\"]\",\"Arguments\":\"[\\\"2\\\",\\\"3\\\",\\\"1\\\"]\"}','[\"2\",\"3\",\"1\"]','2022-11-18 18:04:19.157508','2022-11-19 18:04:32.664779'),(2,6,'Succeeded','{\"Type\":\"Sommus.Gestor.Cadastros.Application.Application.ContaApplication, Sommus.Gestor.Cadastros.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\",\"Method\":\"RecalcularSaldoTodasContas\",\"ParameterTypes\":\"[\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\"]\",\"Arguments\":\"[\\\"2\\\",\\\"3\\\",\\\"1\\\"]\"}','[\"2\",\"3\",\"1\"]','2022-11-18 18:23:52.039705','2022-11-19 18:24:03.406244');
+INSERT INTO `job` VALUES (1,1,'Scheduled','{\"Type\":\"Sommus.Gestor.Core.Infra.Email.EmailService, Sommus.Gestor.Core.Infra, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\",\"Method\":\"Envia\",\"ParameterTypes\":\"[\\\"System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\"]\",\"Arguments\":\"[\\\"[\\\\\\\"jadralutro@gufum.com\\\\\\\"]\\\",\\\"\\\\\\\"SommusGestor - Agenda\\\\\\\"\\\",\\\"\\\\\\\"Compromisso da Agenda\\\\\\\"\\\",\\\"\\\\\\\"Olá, temos um lembrete pra você.<br /><br />Retornar para cliente e verificar se já avaliou a proposta.<br /><br />Marcado para: <b>quinta-feira, 16 de fevereiro de 2023 às 16:42</b>\\\\\\\"\\\"]\"}','[\"[\\\"jadralutro@gufum.com\\\"]\",\"\\\"SommusGestor - Agenda\\\"\",\"\\\"Compromisso da Agenda\\\"\",\"\\\"Olá, temos um lembrete pra você.<br /><br />Retornar para cliente e verificar se já avaliou a proposta.<br /><br />Marcado para: <b>quinta-feira, 16 de fevereiro de 2023 às 16:42</b>\\\"\"]','2023-02-13 19:42:30.766276',NULL),(2,4,'Succeeded','{\"Type\":\"Sommus.Gestor.Cadastros.Application.Application.ContaApplication, Sommus.Gestor.Cadastros.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\",\"Method\":\"RecalcularSaldoTodasContas\",\"ParameterTypes\":\"[\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\",\\\"System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\\"]\",\"Arguments\":\"[\\\"10\\\",\\\"17\\\",\\\"17\\\"]\"}','[\"10\",\"17\",\"17\"]','2023-02-13 19:42:39.734191','2023-02-14 19:42:43.818674');
 /*!40000 ALTER TABLE `job` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -191,7 +191,7 @@ CREATE TABLE `jobqueue` (
   `FetchToken` varchar(36) DEFAULT NULL,
   PRIMARY KEY (`Id`),
   KEY `IX_JobQueue_QueueAndFetchedAt` (`Queue`,`FetchedAt`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -278,6 +278,7 @@ CREATE TABLE `server` (
 
 LOCK TABLES `server` WRITE;
 /*!40000 ALTER TABLE `server` DISABLE KEYS */;
+INSERT INTO `server` VALUES ('desktop:24720:7af7d089-f032-41f2-812c-402aedc302c4','{\"WorkerCount\":20,\"Queues\":[\"default\"],\"StartedAt\":\"2023-02-13T20:24:51.5776482Z\"}','2023-02-13 20:27:21.869143');
 /*!40000 ALTER TABLE `server` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -296,7 +297,7 @@ CREATE TABLE `set` (
   `ExpireAt` datetime DEFAULT NULL,
   PRIMARY KEY (`Id`),
   UNIQUE KEY `IX_Set_Key_Value` (`Key`,`Value`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -305,6 +306,7 @@ CREATE TABLE `set` (
 
 LOCK TABLES `set` WRITE;
 /*!40000 ALTER TABLE `set` DISABLE KEYS */;
+INSERT INTO `set` VALUES (1,'schedule','1',1676540000,NULL);
 /*!40000 ALTER TABLE `set` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -325,7 +327,7 @@ CREATE TABLE `state` (
   PRIMARY KEY (`Id`),
   KEY `FK_HangFire_State_Job` (`JobId`),
   CONSTRAINT `FK_HangFire_State_Job` FOREIGN KEY (`JobId`) REFERENCES `job` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -334,7 +336,7 @@ CREATE TABLE `state` (
 
 LOCK TABLES `state` WRITE;
 /*!40000 ALTER TABLE `state` DISABLE KEYS */;
-INSERT INTO `state` VALUES (1,1,'Enqueued',NULL,'2022-11-18 18:04:19.203872','{\"EnqueuedAt\":\"2022-11-18T18:04:19.1319738Z\",\"Queue\":\"default\"}'),(2,1,'Processing',NULL,'2022-11-18 18:04:32.473935','{\"StartedAt\":\"2022-11-18T18:04:32.4564418Z\",\"ServerId\":\"desktop:1172:93bf943e-dd38-4e74-80d3-822ae7ed9ac1\",\"WorkerId\":\"86fc089b-4361-4c8a-9fbf-d0f09c2f00d9\"}'),(3,1,'Succeeded',NULL,'2022-11-18 18:04:32.659171','{\"SucceededAt\":\"2022-11-18T18:04:32.6486541Z\",\"PerformanceDuration\":\"164\",\"Latency\":\"13325\"}'),(4,2,'Enqueued',NULL,'2022-11-18 18:23:52.047212','{\"EnqueuedAt\":\"2022-11-18T18:23:52.0387061Z\",\"Queue\":\"default\"}'),(5,2,'Processing',NULL,'2022-11-18 18:24:03.345983','{\"StartedAt\":\"2022-11-18T18:24:03.3389849Z\",\"ServerId\":\"desktop:1172:93bf943e-dd38-4e74-80d3-822ae7ed9ac1\",\"WorkerId\":\"62648405-46c1-4ace-a938-c3e1773d5379\"}'),(6,2,'Succeeded',NULL,'2022-11-18 18:24:03.405243','{\"SucceededAt\":\"2022-11-18T18:24:03.3982442Z\",\"PerformanceDuration\":\"43\",\"Latency\":\"11314\"}');
+INSERT INTO `state` VALUES (1,1,'Scheduled',NULL,'2023-02-13 19:42:30.814082','{\"EnqueueAt\":\"2023-02-16T09:42:30.6374189Z\",\"ScheduledAt\":\"2023-02-13T19:42:30.7402613Z\"}'),(2,2,'Enqueued',NULL,'2023-02-13 19:42:39.740190','{\"EnqueuedAt\":\"2023-02-13T19:42:39.7331910Z\",\"Queue\":\"default\"}'),(3,2,'Processing',NULL,'2023-02-13 19:42:43.724532','{\"StartedAt\":\"2023-02-13T19:42:43.7077346Z\",\"ServerId\":\"desktop:21328:253bcd56-5662-4eaf-8249-1d4ec733fd07\",\"WorkerId\":\"8bb0bf6d-3a43-42e9-8f52-f59d23dafea4\"}'),(4,2,'Succeeded',NULL,'2023-02-13 19:42:43.813264','{\"SucceededAt\":\"2023-02-13T19:42:43.8032624Z\",\"PerformanceDuration\":\"72\",\"Latency\":\"3996\"}');
 /*!40000 ALTER TABLE `state` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -347,4 +349,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-18 19:06:27
+-- Dump completed on 2023-02-13 17:27:44
