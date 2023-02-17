@@ -29,7 +29,7 @@ CREATE TABLE `aggregatedcounter` (
   `ExpireAt` datetime DEFAULT NULL,
   PRIMARY KEY (`Id`),
   UNIQUE KEY `IX_CounterAggregated_Key` (`Key`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,6 +38,7 @@ CREATE TABLE `aggregatedcounter` (
 
 LOCK TABLES `aggregatedcounter` WRITE;
 /*!40000 ALTER TABLE `aggregatedcounter` DISABLE KEYS */;
+INSERT INTO `aggregatedcounter` VALUES (1,'stats:succeeded',1,NULL),(2,'stats:succeeded:2023-02-15',1,'2023-03-15 18:55:58');
 /*!40000 ALTER TABLE `aggregatedcounter` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -343,4 +344,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-02-15 14:33:03
+-- Dump completed on 2023-02-17 19:24:35
