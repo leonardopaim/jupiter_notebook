@@ -1,1 +1,0 @@
-insert into operacao (codigo_interno, nome, entrada_saida, movimenta_estoque, movimenta_financeiro, atualiza_precos) values (1, "Venda", "S", 1, 1, 1), (2, "Devolução de venda", "E", 1, 1, 1), (3, "Compra", "E", 1, 1, 1), (4, "Devolução de compra", "S", 1, 1, 1), (5, "Prestação de serviços", "S", 0, 1, 1);

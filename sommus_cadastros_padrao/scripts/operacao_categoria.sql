@@ -1,1 +1,0 @@
-insert into operacao_categoria (operacao_id, categoria_id, tipo) values (1, 4, 1), (1, 5, 2), (1, 8, 9), (2, 10, 5), (2, 11, 6), (3, 30, 3), (3, 31, 4), (3, 32, 10), (4, 33, 7), (4, 34, 8), (5, 9, 9), (5, 6, 11), (5, 7, 12);
